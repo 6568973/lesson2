@@ -6,7 +6,7 @@ puts "Введите год: "
 year = gets.chomp.to_i
 
 month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-month_days[1] = 29 if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)
+month_days[1] = 29 if year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)
 
 sum = 0
 for i in 0..month-2
@@ -16,6 +16,3 @@ end
 sum += day
 
 puts "Порядковый номер даты: #{sum}" 
-
-
-
