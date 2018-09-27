@@ -23,3 +23,4 @@ end
 end
 
   puts "Итого: #{total_price}"
+

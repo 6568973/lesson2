@@ -14,3 +14,4 @@ month = {'january' => 31,
 month.each do|month, days| 
   puts month if days == 30
 end
+
