@@ -9,7 +9,7 @@
 #puts vowels_hash	
 
 alphabet = ('A'..'Z').to_a
-vowels = "AEIOUY"
+vowels = ["A", "E", "I", "O", "U", "Y"]
  vowels_hash = {}
 vowels.each do |vowel|
   vowels_hash[vowel] = alphabet.index(vowel)
